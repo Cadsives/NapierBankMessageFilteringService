@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NapierBankMessageFilteringService", "NapierBankMessageFilteringService\NapierBankMessageFilteringService.csproj", "{133CCC01-B778-4219-A1C6-D90F6C395417}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageLibrary", "MessageLibrary\MessageLibrary\MessageLibrary.csproj", "{B5B4523D-0A40-4788-83F9-7B1F1A1FE4BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NapierBankTester", "NapierBankTester\NapierBankTester.csproj", "{E0FC8E5E-E456-4E33-8827-8B03CD11CC1D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{133CCC01-B778-4219-A1C6-D90F6C395417}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{133CCC01-B778-4219-A1C6-D90F6C395417}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{133CCC01-B778-4219-A1C6-D90F6C395417}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{133CCC01-B778-4219-A1C6-D90F6C395417}.Debug|x86.ActiveCfg = Debug|x86
+		{133CCC01-B778-4219-A1C6-D90F6C395417}.Debug|x86.Build.0 = Debug|x86
+		{133CCC01-B778-4219-A1C6-D90F6C395417}.Release|Any CPU.ActiveCfg = Release|x86
+		{133CCC01-B778-4219-A1C6-D90F6C395417}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{133CCC01-B778-4219-A1C6-D90F6C395417}.Release|Mixed Platforms.Build.0 = Release|x86
+		{133CCC01-B778-4219-A1C6-D90F6C395417}.Release|x86.ActiveCfg = Release|x86
+		{133CCC01-B778-4219-A1C6-D90F6C395417}.Release|x86.Build.0 = Release|x86
+		{B5B4523D-0A40-4788-83F9-7B1F1A1FE4BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5B4523D-0A40-4788-83F9-7B1F1A1FE4BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5B4523D-0A40-4788-83F9-7B1F1A1FE4BE}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{B5B4523D-0A40-4788-83F9-7B1F1A1FE4BE}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{B5B4523D-0A40-4788-83F9-7B1F1A1FE4BE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B5B4523D-0A40-4788-83F9-7B1F1A1FE4BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5B4523D-0A40-4788-83F9-7B1F1A1FE4BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5B4523D-0A40-4788-83F9-7B1F1A1FE4BE}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{B5B4523D-0A40-4788-83F9-7B1F1A1FE4BE}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{B5B4523D-0A40-4788-83F9-7B1F1A1FE4BE}.Release|x86.ActiveCfg = Release|Any CPU
+		{E0FC8E5E-E456-4E33-8827-8B03CD11CC1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0FC8E5E-E456-4E33-8827-8B03CD11CC1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0FC8E5E-E456-4E33-8827-8B03CD11CC1D}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{E0FC8E5E-E456-4E33-8827-8B03CD11CC1D}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{E0FC8E5E-E456-4E33-8827-8B03CD11CC1D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E0FC8E5E-E456-4E33-8827-8B03CD11CC1D}.Debug|x86.Build.0 = Debug|Any CPU
+		{E0FC8E5E-E456-4E33-8827-8B03CD11CC1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0FC8E5E-E456-4E33-8827-8B03CD11CC1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0FC8E5E-E456-4E33-8827-8B03CD11CC1D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{E0FC8E5E-E456-4E33-8827-8B03CD11CC1D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{E0FC8E5E-E456-4E33-8827-8B03CD11CC1D}.Release|x86.ActiveCfg = Release|Any CPU
+		{E0FC8E5E-E456-4E33-8827-8B03CD11CC1D}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

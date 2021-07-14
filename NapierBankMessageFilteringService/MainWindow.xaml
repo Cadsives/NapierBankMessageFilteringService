@@ -1,0 +1,13 @@
+﻿<Window x:Class="NapierBankMessageFilteringService.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="" Width="Auto" Height="Auto" SizeToContent="WidthAndHeight" Loaded="Window_Loaded" Name="formMain">
+    <Grid>
+        <Frame x:Name="pageFrame" Margin="0,45,0,0" FlowDirection="RightToLeft" Height="424" VerticalAlignment="Top" NavigationUIVisibility="Hidden"/>
+        <StackPanel Orientation="Horizontal" Height="40" VerticalAlignment="Top" Margin="0" HorizontalAlignment="Center">
+            <Button x:Name="btnCreateMessage" Content= "Create Message" MinWidth="175" Click="btnCreateMessage_Click" FontWeight="Bold" FontSize="20" />
+            <Button x:Name="btnFilterMessage" Content= "Filter Message" MinWidth="175" Margin="25,0,0,0" Click="btnFilterMessage_Click" FontWeight="Bold" FontSize="20"/>
+            <Button x:Name="btnHelp" Content="Help" MinWidth="175" Margin="25,0,0,0" Click="btnHelp_Click" FontWeight="Bold" FontSize="20"/>
+        </StackPanel>
+    </Grid>
+</Window>

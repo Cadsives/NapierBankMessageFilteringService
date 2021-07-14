@@ -1,0 +1,27 @@
+﻿<Page x:Class="NapierBankMessageFilteringService.EnterMessage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="423"
+	Title="EnterMessage" Width="640.84">
+
+    <Grid Margin="0,0,10,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock x:Name="lblMessageHeader" HorizontalAlignment="Left" Height="26" Margin="10,10,0,0" TextWrapping="Wrap" Text="Message Header:" VerticalAlignment="Top" Width="175" RenderTransformOrigin="-0.142,-1.167" FontFamily="Arial" FontSize="20" FontWeight="Bold"/>
+        <TextBox x:Name ="txtMessageCredentials" HorizontalAlignment="Left" Height="26" Margin="190,10,0,0" TextWrapping="Wrap" Text="{Binding Name, Delay= 500}" VerticalAlignment="Top" Width="191" FontFamily="Arial" FontSize="16" RenderTransformOrigin="0.496,1.169" TextChanged="txtMessageCredentials_TextChanged"/>
+        <TextBlock x:Name="lblSubject" HorizontalAlignment="Left" Height="26" Margin="10,41,0,0" TextWrapping="Wrap" Text="Subject: " VerticalAlignment="Top" Width="83" FontFamily="Arial" FontSize="20" FontWeight="Bold"/>
+        <TextBox x:Name="txtSubject" HorizontalAlignment="Left" Height="26" Margin="190,41,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="191" FontFamily="Arial" FontSize="16" TextChanged="txtSubject_TextChanged"/>
+        <TextBox x:Name="txtMessageContainer" HorizontalAlignment="Center" Height="194" Margin="62,114,84,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="485" FontFamily="Arial" FontSize="16" VerticalScrollBarVisibility="Visible" TextChanged="txtMessageContainer_TextChanged" AcceptsReturn="True"/>
+        <StackPanel Height="82" Margin="52,331,0,0" VerticalAlignment="Top" Width="485" HorizontalAlignment="Left" Orientation="Horizontal" RenderTransformOrigin="0.496,0.5">
+            <Button x:Name="btnClear" Content ="Clear" Height="80" Width="150" FontSize="20" FontFamily="Arial" Click = "btnClear_Click" FontWeight="Bold"/>
+            <Button x:Name="btnSend" Content="Send" Height="80" Width="150" Margin="183,1,0,1" FontSize="20" FontFamily="Arial" Click="btnSend_Click" FontWeight="Bold"/>
+        </StackPanel>
+        <TextBlock x:Name="lblBody" HorizontalAlignment="Left" Height="25" Margin="75,84,0,0" TextWrapping="Wrap" Text="Body:" VerticalAlignment="Top" Width="159" FontFamily="Arial" FontSize="20" FontWeight="Bold"/>
+
+    </Grid>
+</Page>
